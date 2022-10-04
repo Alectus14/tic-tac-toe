@@ -1,0 +1,96 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Gantari", sans-serif;
+    /* font-weight: 600; */
+}
+
+h1 {
+    font-family: "Press Start 2P", cursive;
+}
+
+body {
+    height: 100%;
+    background-image: linear-gradient(#a8ff78, #78ffd6);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px auto auto -10px;
+}
+
+.header h1 {
+    text-align: center;
+    margin: 50px;
+    font-size: 100px;
+    padding-top: 40px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 35px;
+}
+
+.row {
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn {
+    border: 1px solid black;
+    border-radius: 5px;
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    font-size: 75px;
+    font-family: "Press Start 2P", cursive;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background-color: rgba(191, 191, 191, 0.377);
+}
+
+.btn:disabled {
+    cursor: no-drop;
+    color: inherit;
+}
+
+.turn {
+    text-align: center;
+    font-size: 50px;
+    font-weight: 800;
+}
+
+.reset {
+    text-align: center;
+}
+
+#reset {
+    margin: 40px;
+    height: 40px;
+    width: 100px;
+    font-family: "Press Start 2P", cursive;
+    border: 1px solid black;
+    cursor: pointer;
+    color: black;
+    background-color: white;
+    border-radius: 5px;
+    padding: 5px 20px;
+    transition: all 0.1 ease-in-out;
+}
+
+#reset:hover {
+    color: white;
+    background-color: black;
+}
